@@ -29,18 +29,18 @@
 	@game.roll(5)
 	@game.roll(5)
 	@game.roll(3)
-        roll_many(17,0)	
-	
+        roll_many(17,0)
+
 	assert_equal(16,@game.score)
       end
 
       def test_strike_frame_and_2_rolls
-	
+
 	@game.roll(10)
 	@game.roll(5)
 	@game.roll(3)
 	roll_many(17,0)
-	
+
 	assert_equal(26, @game.score)
       end
 

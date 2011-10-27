@@ -7,7 +7,7 @@ class Game
 
 	def roll(pins)
 	  @rolls.push(pins)
-	end	
+	end
 
 	def score
 	  frames = 0
@@ -29,7 +29,7 @@ class Game
 
 	  frames
 	end
-	
+
 	def sum(array)
 	  array.inject(0) {|sum,item| sum += item}
 	end
